@@ -4,21 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ellery Orton</title>
-  <meta name="description" content="Ellery Orton — Accounting portfolio." />
+  <meta name="description" content="Ellery Orton — Accounting student portfolio." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Top Nav -->
   <header class="header" id="top">
     <div class="nav">
       <a class="brand" href="#top">
-        <span class="brand-dot"></span>
-        <span class="brand-name">Ellery Orton</span>
-        <span class="brand-role">Accounting</span>
+        <span class="dot"></span>
+        <span class="name">Ellery Orton</span>
+        <span class="role">Accounting Student</span>
       </a>
 
-      <nav class="nav-links">
+      <nav class="links">
         <a href="#about">About</a>
         <a href="#resume">Resume</a>
         <a href="#projects">Projects</a>
@@ -27,68 +26,61 @@
     </div>
   </header>
 
-  <!-- Hero (the look you want) -->
   <main class="container">
     <section class="hero">
-      <!-- Left card -->
-      <aside class="profile-card">
-        <div class="photo-wrap">
-          <img
-            src="Photos/IMG_4793 (1).JPG"
-            alt="Ellery Orton headshot"
-            class="profile-photo"
-          />
+      <!-- Left card (uses the example image you upload to assets/example.png) -->
+      <aside class="card-left">
+        <div class="img-frame">
+          <img src="assets/example.png" alt="Website inspiration preview" class="preview-img" />
         </div>
 
-        <div class="profile-meta">
-          <h2 class="profile-name">Ellery<br/>Orton</h2>
-          <div class="profile-line"></div>
-          <p class="profile-title">ACCOUNTING • MAY GRAD</p>
+        <div class="card-name">
+          <h2>Ellery<br/>Orton</h2>
+          <div class="line"></div>
+          <p>ACCOUNTING STUDENT</p>
         </div>
 
-        <div class="social-row">
-          <!-- Replace # with your real links -->
-          <a class="icon-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
-          <a class="icon-btn" href="mailto:your.email@example.com?subject=Hello%20Ellery" aria-label="Email">@</a>
-          <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+        <div class="social">
+          <!-- Replace LinkedIn + GitHub when ready -->
+          <a class="pill" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="pill" href="Ellery_Orton_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="pill" href="#contact">Email</a>
         </div>
       </aside>
 
       <!-- Right intro -->
       <section class="intro">
         <h1>Hello</h1>
-        <p class="intro-subtitle">Here’s who I am & what I do</p>
+        <p class="subtitle">Here’s who I am & what I do</p>
 
         <div class="btn-row">
-          <!-- Upload a resume PDF to the repo and link it like Ellery_Orton_Resume.pdf -->
           <a class="btn primary" href="#resume">Resume</a>
           <a class="btn ghost" href="#projects">Projects</a>
         </div>
 
-        <p class="intro-text">
-          I’m an accounting student graduating in May, building a clean portfolio for recruiting.
-          I enjoy clear communication, organized work, and projects that turn messy info into something useful.
+        <p class="text">
+          I’m an accounting student building a clean portfolio for recruiting.
+          I like organized work, clear communication, and projects that turn information into decisions.
         </p>
 
-        <p class="intro-text muted">
-          This site is minimal on purpose — quick to scan, easy to navigate, and focused on my work.
+        <p class="text muted">
+          This site is intentionally minimal — quick to scan and easy to navigate.
         </p>
       </section>
     </section>
 
-    <!-- About -->
     <section class="section" id="about">
       <div class="section-head">
         <h2>About</h2>
         <p class="muted">A quick snapshot.</p>
       </div>
 
-      <div class="cards">
+      <div class="grid">
         <div class="card">
           <h3>Bio</h3>
           <p class="muted">
-            I’m finishing my accounting degree this May and looking for opportunities where I can grow in
-            financial reporting, analysis, and real-world accounting workflows.
+            I’m an accounting student preparing for my next role and looking for opportunities to grow in
+            reporting, analysis, and real-world accounting workflows.
           </p>
         </div>
 
@@ -103,18 +95,16 @@
       </div>
     </section>
 
-    <!-- Resume -->
     <section class="section" id="resume">
       <div class="section-head">
         <h2>Resume</h2>
-        <p class="muted">Upload your PDF to this repo and link it here.</p>
+        <p class="muted">Upload a PDF to this repo and the button will work.</p>
       </div>
 
       <div class="card wide">
         <p class="muted" style="margin-top:0;">
-          Add a file named <span class="mono">Ellery_Orton_Resume.pdf</span> to the repo root, then update the button link.
+          Upload your resume to the repo root as <span class="mono">Ellery_Orton_Resume.pdf</span>.
         </p>
-
         <div class="btn-row">
           <a class="btn primary" href="Ellery_Orton_Resume.pdf" target="_blank" rel="noopener">Open Resume</a>
           <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
@@ -122,21 +112,19 @@
       </div>
     </section>
 
-    <!-- Projects -->
     <section class="section" id="projects">
       <div class="section-head">
         <h2>Projects</h2>
-        <p class="muted">Two highlights. Simple and recruiter-friendly.</p>
+        <p class="muted">Highlights.</p>
       </div>
 
-      <div class="cards">
+      <div class="grid">
         <article class="card">
           <h3>FSBS Project</h3>
           <p class="muted">
-            Add a 2–3 sentence description: what you did, what tools you used (Excel, reporting, process),
-            and what improved (time saved, fewer errors, clearer tracking).
+            Replace with 2–3 sentences: what you did, the tools used (Excel/reporting/process), and the impact.
           </p>
-          <div class="tag-row">
+          <div class="tags">
             <span class="tag">Process</span>
             <span class="tag">Excel</span>
             <span class="tag">Operations</span>
@@ -146,10 +134,9 @@
         <article class="card">
           <h3>School Work</h3>
           <p class="muted">
-            Ratio analysis, audit-style flags, reports, or presentations.
-            Link your best assignment(s) here when ready.
+            Ratio analysis, audit-style flags, reports, and presentations. Add links as you finish them.
           </p>
-          <div class="tag-row">
+          <div class="tags">
             <span class="tag">Accounting</span>
             <span class="tag">Analysis</span>
             <span class="tag">Reporting</span>
@@ -158,16 +145,15 @@
       </div>
     </section>
 
-    <!-- Contact -->
     <section class="section" id="contact">
       <div class="section-head">
         <h2>Contact</h2>
-        <p class="muted">Button-only contact (clean + minimal).</p>
+        <p class="muted">Button-only contact.</p>
       </div>
 
       <div class="card wide">
         <p class="muted" style="margin-top:0;">Click to open an email draft.</p>
-        <a class="btn primary" href="mailto:your.email@example.com?subject=Hello%20Ellery">Contact Me</a>
+        <a class="btn primary" href="mailto:elleryorton987@gmail.com?subject=Hello%20Ellery">Contact Me</a>
       </div>
     </section>
 

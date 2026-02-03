@@ -1,20 +1,183 @@
-<!-- ======== PASTE THIS IN index.html (inside the HERO section) ======== -->
-<!-- Put this right after: <div class="container"> inside <section class="section hero"> -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ellery Orton</title>
+  <meta name="description" content="Ellery Orton — Accounting portfolio." />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-<img
-  src="Photos/IMG_4793 (1).JPG"
-  alt="Ellery Orton headshot"
-  class="profile-photo"
-/>
+<body>
+  <!-- Top Nav -->
+  <header class="header" id="top">
+    <div class="nav">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Ellery Orton</span>
+        <span class="brand-role">Accounting</span>
+      </a>
 
-<!-- ======== PASTE THIS IN style.css (at the very bottom) ======== -->
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-.profile-photo{
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 999px;
-  border: 2px solid rgba(31,31,31,.14);
-  box-shadow: 0 12px 30px rgba(31,31,31,.14);
-  margin: 14px 0 18px;
-}
+  <!-- Hero (the look you want) -->
+  <main class="container">
+    <section class="hero">
+      <!-- Left card -->
+      <aside class="profile-card">
+        <div class="photo-wrap">
+          <img
+            src="Photos/IMG_4793 (1).JPG"
+            alt="Ellery Orton headshot"
+            class="profile-photo"
+          />
+        </div>
+
+        <div class="profile-meta">
+          <h2 class="profile-name">Ellery<br/>Orton</h2>
+          <div class="profile-line"></div>
+          <p class="profile-title">ACCOUNTING • MAY GRAD</p>
+        </div>
+
+        <div class="social-row">
+          <!-- Replace # with your real links -->
+          <a class="icon-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a class="icon-btn" href="mailto:your.email@example.com?subject=Hello%20Ellery" aria-label="Email">@</a>
+          <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+        </div>
+      </aside>
+
+      <!-- Right intro -->
+      <section class="intro">
+        <h1>Hello</h1>
+        <p class="intro-subtitle">Here’s who I am & what I do</p>
+
+        <div class="btn-row">
+          <!-- Upload a resume PDF to the repo and link it like Ellery_Orton_Resume.pdf -->
+          <a class="btn primary" href="#resume">Resume</a>
+          <a class="btn ghost" href="#projects">Projects</a>
+        </div>
+
+        <p class="intro-text">
+          I’m an accounting student graduating in May, building a clean portfolio for recruiting.
+          I enjoy clear communication, organized work, and projects that turn messy info into something useful.
+        </p>
+
+        <p class="intro-text muted">
+          This site is minimal on purpose — quick to scan, easy to navigate, and focused on my work.
+        </p>
+      </section>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="muted">A quick snapshot.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Bio</h3>
+          <p class="muted">
+            I’m finishing my accounting degree this May and looking for opportunities where I can grow in
+            financial reporting, analysis, and real-world accounting workflows.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Strengths</h3>
+          <ul>
+            <li>Financial ratio analysis & reporting</li>
+            <li>Excel organization + clean deliverables</li>
+            <li>Professional communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+      <div class="section-head">
+        <h2>Resume</h2>
+        <p class="muted">Upload your PDF to this repo and link it here.</p>
+      </div>
+
+      <div class="card wide">
+        <p class="muted" style="margin-top:0;">
+          Add a file named <span class="mono">Ellery_Orton_Resume.pdf</span> to the repo root, then update the button link.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn primary" href="Ellery_Orton_Resume.pdf" target="_blank" rel="noopener">Open Resume</a>
+          <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Two highlights. Simple and recruiter-friendly.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>FSBS Project</h3>
+          <p class="muted">
+            Add a 2–3 sentence description: what you did, what tools you used (Excel, reporting, process),
+            and what improved (time saved, fewer errors, clearer tracking).
+          </p>
+          <div class="tag-row">
+            <span class="tag">Process</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Operations</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>School Work</h3>
+          <p class="muted">
+            Ratio analysis, audit-style flags, reports, or presentations.
+            Link your best assignment(s) here when ready.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Accounting</span>
+            <span class="tag">Analysis</span>
+            <span class="tag">Reporting</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Button-only contact (clean + minimal).</p>
+      </div>
+
+      <div class="card wide">
+        <p class="muted" style="margin-top:0;">Click to open an email draft.</p>
+        <a class="btn primary" href="mailto:your.email@example.com?subject=Hello%20Ellery">Contact Me</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted">© <span id="year"></span> Ellery Orton</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
